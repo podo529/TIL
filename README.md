@@ -27,8 +27,8 @@
 * 새폴더 연결하기
 * `git clone 저장소주소붙여넣기`
 * `cd 복제한 폴더명`
-* 수정 후 `git add 파일명.확장자` 혹은 `git add .` 으로 저장
+* 수정 후 저장 ->`git status` 상태확인 ->`git add 파일명.확장자` 혹은 `git add .` 으로 저장
 * `git commit -m'메세지'`
 * `git push origin main`
-### 다른 환경에서 한 git 가져오기
-* `git pull origin main`
+### (위 이어서) 다른 환경에서 git 이어서 작업하기(학원)
+* `git pull origin main` 집에서 올린 파일 내려받기(clone 아님)
