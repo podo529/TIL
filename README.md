@@ -46,7 +46,7 @@
 4. 위 3번 결과 예시) id가 abcd일 경우 `<a href="#abcd"></a>`
 -----
 ### 링크 복습
-* `<a href="#"></a> - 임시링크(연결페이지 제작 전일 경우)
-* <a herf="#header"></a> - 바로가기링크(같은 파일 내 다른 위치 이동)
-* <a herf="./basic/index.html"></a> - 상대경로링크
-* <a herf="./basic/index.html#main"></a> - 상대경로링크 + 바로가기링크
+* `<a href="#"></a> `- 임시링크(연결페이지 제작 전일 경우)
+* `<a herf="#header"></a>` - 바로가기링크(같은 파일 내 다른 위치 이동)
+* `<a herf="./basic/index.html"></a>` - 상대경로링크
+* `<a herf="./basic/index.html#main"></a>` - 상대경로링크 + 바로가기링크
