@@ -1,0 +1,13 @@
+body {background-color:rgb(241, 200, 207)}
+#weather h1 {color:rgb(76, 38, 248);}
+#weather .area {color:white;}
+#weather .temperature {color:rgb(107, 33, 33);}
+#weather .temperature+p {background-color:red;}
+#weather .sub_title {color:rgb(34, 5, 114); background-color:rgba(255,255,255,0.5);}
+#weather .humidity {color:white;}
+#weather .dust {color:gray;}
+.result {background-color: yellow;}
+#news > a {color:yellow; background-color: aquamarine;}
+#news .box h2 {background-color:blueviolet;}
+#news .box h2+p {color:chartreuse;}
+#news > p {background-color: rgba(0,0,0,0.2); color:white;}
