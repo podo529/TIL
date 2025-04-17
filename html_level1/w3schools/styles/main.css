@@ -1,0 +1,68 @@
+#wrap {
+    background-color:#0b8457;
+    width:440px;
+    height:956px;
+    padding-left:15px;
+    padding-right:15px;
+    letter-spacing:-0.02em;
+}
+#wrap h1 {
+    color:#fff;
+    font-size:2.5rem;
+    font-weight:600;
+    padding-top:195px;
+    margin-bottom:30px;
+}
+#wrap > p {letter-spacing:-0.02em;}/* #wrap의 모든 자식 */
+#wrap h1+p {display:inline;
+    color:#10316b;
+    padding-bottom:70px;
+}/* #wrap의 h1 옆에 p */
+#wrap #login_frm {
+    background-color:lime;
+}
+#wrap #login_frm h2 {
+    font-weight:600;
+    font-size:1.375rem;
+    color:#eac100;
+    margin-bottom:13px;
+}
+#wrap #login_frm p {
+    margin-bottom:35px;
+}
+#wrap #login_frm p input {
+    width:410px;
+    height:44px;
+}
+#wrap #login_frm p #login_btn {
+    width:410px;
+    height:44px;
+    background-color:#eac100;
+    border:1px solid #eac100;
+    line-height:44px;
+    font-size:0.875rem;
+    font-weight:600;
+    color:#10316b;
+}
+#wrap #login_frm p .login_google {
+    display:block;
+    width:410px;
+    height:44px;
+    background-color:#dee1ec;
+    border:1px solid #eac100;
+    line-height:44px;
+    font-size:0.875rem;
+    font-weight:600;
+    text-align:center;
+    color:#10316b;
+}
+#wrap #login_frm+p {
+    font-size:0.75rem;
+    text-align:center;
+    color:#dee1ec;
+    
+}/* #wrap의 login_wrap 옆에 p */
+#wrap #login_frm+p a {
+    color:#eac100;
+    display:inline;
+    background-color:coral;}
