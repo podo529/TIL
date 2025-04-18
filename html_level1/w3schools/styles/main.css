@@ -2,48 +2,61 @@
     background-color:#0b8457;
     width:440px;
     height:956px;
-    padding-left:15px;
-    padding-right:15px;
+    /* padding-left:15px;
+    padding-right:15px; */
+    padding: 0 15px;
 }
 #wrap h1 {
     color:#fff;
     font-size:2.5rem;
     font-weight:600;
-    padding-top:195px;
-    margin-bottom:30px;
+    /* padding-top:195px;
+    margin-bottom:30px; */
+    padding:195px 0 0;
+    margin:0 0 30px;
 }
 #wrap > p {}/* #wrap의 모든 자식 */
 #wrap h1+p {
     color:#10316b;
-    margin-bottom:70px;
+    /* margin-bottom:70px; */
+    margin:0 0 70px;
 }/* #wrap의 h1 옆에 p */
 #wrap #login_frm {}
 #wrap #login_frm h2 {
     font-weight:600;
     font-size:1.375rem;
     color:#eac100;
-    margin-bottom:13px;
+    /* margin-bottom:13px; */
+    margin:0 0 13px;
 }
 #wrap #login_frm p {}
-#wrap #login_frm p.user_in {margin-bottom:35px;}
-#wrap #login_frm p.user_btn {margin-bottom:13px;}
+#wrap #login_frm p.user_in {
+    /* margin-bottom:35px; */
+    margin:0 0 35px;
+}
+#wrap #login_frm p.user_btn {
+    /* margin-bottom:13px; */
+    margin:0 0 13px;
+}
 #wrap #login_frm p input::placeholder {
     font-size:0.875rem;
     font-weight:300;
     color:#aaa;}
 #wrap #login_frm p input {
     width:410px;
-    padding-left:10px;
+    /* padding-left:10px;
     padding-right:10px;
     padding-top:15px;
-    padding-bottom:15px;
+    padding-bottom:15px; */
+    padding:15px 10px;
 }
 #wrap #login_frm p #login_btn {
     width:410px;
-    padding-top:15px;
+    /* padding-top:15px;
     padding-bottom:15px;
     padding-left:10px;
-    padding-right:10px;
+    padding-right:10px; */
+    padding:15px 10px;
     background-color:#eac100;
     border:1px solid #eac100;
     font-size:0.875rem;
@@ -52,10 +65,11 @@
 }
 #wrap #login_frm p .login_google {
     width:410px;
-    padding-top:15px;
+    /* padding-top:15px;
     padding-bottom:15px;
     padding-left:10px;
-    padding-right:10px;
+    padding-right:10px; */
+    padding:15px 10px;
     background-color:#dee1ec;
     border:1px solid #eac100;
     font-size:0.875rem;
@@ -68,7 +82,8 @@
     font-size:0.75rem;
     text-align:center;
     color:#dee1ec;
-    margin-top:33px;
+    /* margin-top:33px; */
+    margin:33px 0 0;
 }/* #wrap의 login_wrap 옆에 p */
 #wrap #login_frm+p a {
     color:#eac100;}

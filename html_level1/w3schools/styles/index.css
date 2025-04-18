@@ -5,15 +5,16 @@
     text-align:center;
 }
 #wrap h1 {
-    padding-top:306px;
-    margin-bottom:69px;
+    padding:306px 0 0;
+    margin:0 0 69px 0;
 }
 #wrap h1 img {}
 #wrap .btn_wrap {
     width:300px;
     /* 블록의 너비값을 부모보다 작게 설정했을 때 블록을 가운데정렬하고 싶다면? */
-    margin-left:auto;
-    margin-right:auto;
+    /* margin-left:auto;
+    margin-right:auto; */
+    margin:0 auto;
     text-align:left;/* btn_wrap의 인라인 자식, 자손을 왼쪽정렬 */
 }
 #wrap .btn_wrap a {
@@ -33,8 +34,9 @@
 #wrap .btn_wrap .sign_up_btn {
     height:40px;
     line-height:40px;
-    margin-top:16px;
-    margin-bottom:16px;
+    /* margin-top:16px;
+    margin-bottom:16px; */
+    margin:16px 0;
     color:#10316b;
     background-color:#dee1ec;
     border:1px solid #eac100;
