@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gradient | css</title>
+    <link rel="stylesheet" href="../css_basic/styles/reset.css">
+    <style>
+        .btn {
+            display:block;
+            border:1px solid #000;
+            width:400px; height:200px;
+        }
+        #btn1 {
+            /* gradient 사용 시 -color 없이 통합 background로 명령한다. */
+            background:linear-gradient(-70deg, #eee, rgba(255,0,0,0.5), #ff0);
+            background-size:400%;
+            transition:all 1s;
+        }
+        #btn1:hover {
+            background-position:100% 0;
+        }
+        h1 {
+            text-transform:uppercase;
+            font-size:2.5rem;
+            font-weight:800;
+            background:linear-gradient(90deg, purple, darkblue, #555, brown);
+            /* display:inline-block; */
+            width:max-content;
+            /* gradient 색상을 글자에 적용하기 위한 방법(마스크구조) */
+            color:transparent;
+            background-clip:text;
+            background-size:500%;
+            transition:all 3s;
+        }
+        h1:hover {
+            background-position-x:100%;
+        }
+        h2 {
+            font-size:2.5rem;
+            font-weight:800;
+            background: linear-gradient(rgba(42, 155, 50, 1) 0%, rgba(255, 255, 255, 1) 31%, rgba(255, 255, 255, 1) 47%, rgba(243, 232, 138, 1) 70%, rgba(183, 250, 127, 1) 100%);
+            width:max-content;
+            color:transparent;
+            background-clip:text;
+            background-size:600% 600%;
+            transition:all 10s linear;
+        }
+        h2:hover {
+            background-position-y:1000px;
+        }
+    </style>
+</head>
+<body>
+    <button type="button" id="btn1" class="btn">Hover me!</button>
+    <h1>HTML & CSS & Javascript & figma & react</h1>
+    <h2>서브웨이신메뉴<br>오이샌드위치</h2>
+</body>
+</html>
