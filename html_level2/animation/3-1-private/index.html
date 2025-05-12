@@ -8,6 +8,25 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/desktop.css">
     <link rel="stylesheet" href="styles/animation.css">
+    <style>
+        main {}
+        main .bg_wrap {}
+        main .bg_wrap .bg {}
+        main .bg_wrap .bg1 {animation:position 9s linear infinite;}
+        main .bg_wrap .bg2 {animation:position 8s linear infinite both;}
+        main .bg_wrap .bg3 {animation:position 7s linear infinite both;}
+        main .car {}
+        main .car #left_tire {animation:rotate 3s linear infinite;}
+        main .car #right_tire {animation:rotate 3s linear infinite;}
+        @keyframes rotate {
+            0% {transform:rotate(0);}
+            100% {transform:rotate(-360deg);}
+        }
+        @keyframes position {
+            0% {background-position:0 0;}
+            100% {background-position:1219px 0;}
+        }
+    </style>
     <script>
         window.onload=function(){
 
